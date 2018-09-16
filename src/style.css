@@ -1,0 +1,88 @@
+/* .card {
+  width: 50px;
+  border: 1px solid gray;
+  padding: 2px;
+}
+.card span {
+  line-height: 50px;
+  font-size: 20;
+} */
+
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  margin-left: 70px;
+  width: 80%;
+  border-collapse: separate;
+  border-spacing: 20px 20px;
+}
+th {
+  height: 100px;
+}
+
+td {
+  background-color: aquamarine;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+/* div {
+  display: flex;
+  text-align: center;
+  padding-block-end: 5px;
+} */
+
+button {
+  background: #1c88bf;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.8 rem;
+  font-weight: 300;
+  line-height: 1;
+  padding: 1.2rem;
+  text-decoration: none;
+  height: 20px;
+  width: 80px;
+  margin-top: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.playzone {
+  width: 65%;
+  height: 90%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  flex-grow: 1;
+  height: 750px;
+  margin-right: 50px;
+}
+.score {
+  height: 200px;
+  width: 100%;
+}
+h1 {
+  margin-top: 50px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-top: 200px;
+}
